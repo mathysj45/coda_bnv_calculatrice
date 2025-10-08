@@ -3,5 +3,8 @@
 
 int main()
 {
-exit(0)
+	int x;
+	int y;
+	char signe;
+	exit(0)
 }
