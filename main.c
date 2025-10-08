@@ -6,7 +6,8 @@ int main()
 	int x;
 	int y;
 	char signe;
-	printf("choisissez un opérateur (+, *, /, -, %%) :\n");
+	printf("Salut à toi jeune padawan !\n");
+	printf("Choisis un opérateur (+, *, /, -, %%) :\n");
         scanf("%c", &signe);
 	printf("écrivez un nombre entier :\n");
         scanf("%d", &x);
@@ -35,7 +36,7 @@ int main()
 	printf("division\n");
 		if(x, y == 0)
 		{
-			printf("On ne peut pas diviser par 0 imbécile (～￣(OO)￣)ブ\n");
+			printf("On ne peut pas diviser par 0 imbécile (～￣▽￣)～\n");
 		}
 		else
 		{double resultat = (double) x / (double) y;
@@ -50,7 +51,7 @@ int main()
         }
 	else
         {
-	printf("l'opérateur n'est pas reconnu débilos.\n");
+	printf("l'opérateur n'est pas reconnu débilos (～￣▽￣)～\n");
         }
 	exit(0);
 }
