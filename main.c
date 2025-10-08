@@ -50,7 +50,7 @@ int main()
         }
 	else
         {
-	printf("l'opérateur n'est pas reconnu.\n");
+	printf("l'opérateur n'est pas reconnu débilos.\n");
         }
 	exit(0);
 }
