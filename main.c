@@ -15,22 +15,38 @@ int main()
 	if(signe == '+')
 	{
 	printf("addition\n");
+	int resultat = x + y;
+	printf("%d + %d = %d\n", x, y, resultat);
 	}
 	else if(signe == '-')
         {
 	printf("soustraction\n");
+	int resultat = x - y;
+        printf("%d - %d = %d\n", x, y, resultat);
         }
 	else if(signe == '*')
         {
 	printf("multiplication\n");
+	int resultat = x * y;
+        printf("%d * %d = %d\n", x, y, resultat);
         }
 	else if(signe == '/')
         {
 	printf("division\n");
+		if(x, y == 0)
+		{
+			printf("On ne peut pas diviser par 0 imbécile (～￣(OO)￣)ブ\n");
+		}
+		else
+		{double resultat = (double) x / (double) y;
+        	printf("%d / %d = %.2f\n", x, y, resultat);
+		}
         }
 	else if(signe == '%')
         {
 	printf("modulo\n");
+	int resultat = x % y;
+        printf("%d %% %d = %d\n", x, y, resultat);
         }
 	else
         {
